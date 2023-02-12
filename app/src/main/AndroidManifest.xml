@@ -12,9 +12,15 @@
         android:theme="@style/Theme.Buder"
         tools:targetApi="31">
         <activity
+            android:name=".PractiseDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PractiseActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:label="Buder"
-            android:exported="true">
+            android:exported="true"
+            android:label="Buder">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
